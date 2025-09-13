@@ -4,11 +4,40 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Homework - Task</title>
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="./css/main/styles.css">
 </head>
 <body>
-	<h1>Hello World</h1>
+	<div class="Grid">
+		<div class="ChangeBackgroundColor">
+			<button id="changeButtonBackColor">Change Background Color</button>
+		</div>
+	
+		<div class="ListWithInputField">
+			<container>
+				<input id="inputField" type="text" placeholder="Type something...">
+				<button id="addButton">Add</button>
+			</container>
 
-	<script src="main.js"></script>
+			<ol id="itemList"></ol>
+		</div>
+
+		<div class="ImageHoverEffect">
+			<img id="hoverImage" src="./assets/images/first_image.jpg" alt="Hover to change image" width="300" height="200">
+		</div>
+	</div>
+
+	<div class="Grid SecondGrid">
+		<div class="ClickCounter">
+			<button id="clickCounterButton">Click me!</button>
+			<p>Button clicked <span id="clickCount">0</span> times.</p>
+		</div>
+
+		<div class="Form">
+			<input id="formInput" type="text" placeholder="Type something...">
+			<button id="submitButton">Submit</button>
+		</div>
+	</div>
+
+	<script type="module" src="./js/main/main.js"></script>
 </body>
 </html>

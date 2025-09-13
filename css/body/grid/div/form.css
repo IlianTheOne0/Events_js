@@ -1,0 +1,12 @@
+.Grid .Form
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.Form button
+{
+	margin-left: 10px;
+}

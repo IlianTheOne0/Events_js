@@ -1,0 +1,1 @@
+export function incrementClickCount() { document.getElementById("clickCount").innerText++; }
